@@ -1,0 +1,66 @@
+/* Scrollbar pour Chrome, Edge, Safari */
+
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #ff80e8; 
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #e56ccc; 
+} 
+
+.chatBox {
+  scrollbar-width: none;       
+  -ms-overflow-style: none;    
+}
+
+.chatBox::-webkit-scrollbar {
+  display: none;               
+}
+
+
+
+
+
+
+body 
+{
+  background: #ffb6f2;
+  /*background: linear-gradient(0deg,#ffa5ef, #feffdf);*/
+  font-family: 'Montserrat';
+}
+
+.inputArea input
+{
+   padding: 5px;
+   font-family: "Montserrat";
+   border-radius: 10px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button
+{
+  font-family: "Montserrat";
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+strong
+{
+  color: #ff46dd;
+}
+
+input:focus
+{
+  outline: none;
+}
