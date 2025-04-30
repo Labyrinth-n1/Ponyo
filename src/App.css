@@ -1,9 +1,7 @@
 /* Scrollbar pour Chrome, Edge, Safari */
 
 
-body::-webkit-scrollbar {
-  width: 5px;
-}
+
 
 body::-webkit-scrollbar-track {
   background: #f1f1f1;
@@ -11,7 +9,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #ff80e8; 
+  background: #ffc9c7; 
   border-radius: 10px;
 }
 
@@ -35,8 +33,9 @@ body::-webkit-scrollbar-thumb:hover {
 
 body 
 {
-  background: #ffb6f2;
-  /*background: linear-gradient(0deg,#ffa5ef, #feffdf);*/
+  
+  background: #ffc9c7;
+  margin: 0;
   font-family: 'Montserrat';
 }
 
