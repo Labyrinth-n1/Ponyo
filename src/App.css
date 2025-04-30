@@ -105,11 +105,6 @@ main {
 }
 
 /* Images responsives */
-img {
-  width: 100%;
-  height: auto;
-}
-
 /* Mobile */
 @media (max-width: 600px) {
   .container {
