@@ -149,7 +149,7 @@ const styles = {
     lineHeight: 1.4,
     whiteSpace: "pre-wrap",
     marginBottom: 10,
-    boxShadow: "0 2px 5px rgba(0,0,0,0.2)",
+    boxShadow: "0 2px 4px rgba(0,0,0,0.2)",
   },
   inputArea: {
     display: "flex",
@@ -171,7 +171,7 @@ const styles = {
     marginLeft: 10,
     padding: "10px 20px",
     fontSize: 14,
-    backgroundColor: "#ff80e8",
+    backgroundColor: "#cf4c44",
     color: "white",
     border: "none",
     borderRadius: 10,
