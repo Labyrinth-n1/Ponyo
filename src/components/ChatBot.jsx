@@ -52,7 +52,7 @@ function ChatBot() {
         }
       }, interval);
     } catch (err) {
-      const errorMessage = { from: "bot", text: "Oh oh...... ya comme un soucis avec Ponyo 😢" };
+      const errorMessage = { from: "bot", text: "Oh oh...... ya comme un soucis avec Ponyo ou toi !!" };
       setMessages((prev) => [...prev, errorMessage]);
       setLoading(false);
     }
@@ -88,7 +88,7 @@ function ChatBot() {
             style={{
               ...styles.message,
               alignSelf: msg.from === "user" ? "flex-end" : "flex-start",
-              backgroundColor: msg.from === "user" ? "#F0F0F0" : "#ff46dd",
+              backgroundColor: msg.from === "user" ? "#F0F0F0" : "#cf4c44",
               color: msg.from === "user" ? "#000" : "#fff",
               borderTopRightRadius: msg.from === "user" ? 0 : 20,
               borderTopLeftRadius: msg.from === "user" ? 20 : 0,
