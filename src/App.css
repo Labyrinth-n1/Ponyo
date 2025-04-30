@@ -63,3 +63,94 @@ input:focus
 {
   outline: none;
 }
+
+/*HomePage*/
+/* Style global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #ffc9c7;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+header, footer {
+  background: #ffc9c7;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+main {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.content {
+  margin: 20px 0;
+}
+
+/* Images responsives */
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .content {
+    font-size: 1rem;
+  }
+}
+
+/* Tablette */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .content {
+    font-size: 1.2rem;
+  }
+}
+
+/* Bureau */
+@media (min-width: 1025px) {
+  .container {
+    padding: 40px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .content {
+    font-size: 1.5rem;
+  }
+}

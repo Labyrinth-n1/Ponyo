@@ -6,6 +6,7 @@ export default function HomePage() {
     nav: {
       display: "flex",
       justifyContent: "space-around",
+      width: "100%",
       alignItems: "center",
       padding: 0,
       backgroundColor: "#1b6438",
@@ -51,6 +52,8 @@ export default function HomePage() {
       fontWeight: "800",
       lineHeight: "1.2",
       color: "#1f2937",
+      position: "relative",
+      top: "-30px",
     },
     highlight: {
       color: "#cf4c44",
@@ -162,7 +165,8 @@ export default function HomePage() {
             <img 
               src={Ponyo} 
               alt="Student" 
-              style={styles.image} 
+              style={styles.image}
+              className="ponyo" 
             />
             <div style={{ ...styles.badge, ...styles.badgeTop }}>
               <span style={styles.badgeNumber}>Féminité+</span> beauté
